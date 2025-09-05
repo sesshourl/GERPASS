@@ -97,7 +97,6 @@ def carregar_senhas():
             data = fernet.decrypt(encrypted)
             senhas = json.loads(data.decode("utf-8"))
         except Exception:
-            # Ignora erro de OTP e outros, abre app normalmente
             senhas = []
     else:
         senhas = []
