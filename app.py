@@ -111,7 +111,7 @@ def cadastrar_senha():
             'usuario': usuario,
             'senha': '*' * len(senha),
             'senha_real': senha,
-            'otp_secret': ""  # campo vazio por padrão
+            'otp_secret': ""
         })
         salvar_senhas()
         listar_senhas()
