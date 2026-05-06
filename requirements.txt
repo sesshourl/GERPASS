@@ -1,0 +1,4 @@
+pylint==4.0.5
+cryptography==47.0.0
+pyperclip==1.11.0
+pyotp==2.9.0
